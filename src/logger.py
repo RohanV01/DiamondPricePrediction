@@ -14,7 +14,6 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-# Optionally add a console handler for displaying logs in the console
 console_handler = logging.StreamHandler()
 console_handler.setLevel(logging.INFO)
 formatter = logging.Formatter("[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s")
