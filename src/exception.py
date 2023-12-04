@@ -1,5 +1,5 @@
 import sys
-from logger import logging  # Assuming logger.py and exception.py are in the same directory
+from logger import logging
 
 def error_message_detail(error, error_detail: sys):
     _, _, exc_tb = error_detail
